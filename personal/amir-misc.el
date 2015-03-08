@@ -27,6 +27,7 @@
 ;; ========== Set the fill column ==========
 (setq-default fill-column 120)
 (setq whitespace-line-column 120) ;; limit line length
+(setq flycheck-flake8-maximum-line-length 120)
 
 ;; ========== Some key-bindings
 (global-set-key "\C-x\C-m" 'execute-extended-command)
