@@ -62,6 +62,14 @@
 (if (load "mwheel" t)
     (mwheel-install))
 
+;; ========= Markdown mode
+(add-to-list 'load-path "~/.emacs.d/personal/preload/markdown-mode")
+(autoload 'markdown-mode "markdown-mode"
+   "Major mode for editing Markdown files" t)
+(add-to-list 'auto-mode-alist '("\\.text\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.markdown\\'" . markdown-mode))
+(add-to-list 'auto-mode-alist '("\\.md\\'" . markdown-mode))
+
 ;; ========= Color theme
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/monokai-emacs")
 ;; (load-theme 'monokai t)
