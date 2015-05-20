@@ -1,0 +1,15 @@
+[submodule "personal/preload/monokai-emacs"]
+	path = personal/preload/monokai-emacs
+	url = git@github.com:oneKelvinSmith/monokai-emacs.git
+[submodule "personal/preload/powerline"]
+	path = personal/preload/powerline
+	url = git@github.com:milkypostman/powerline.git
+[submodule "personal/preload/markdown-mode"]
+	path = personal/preload/markdown-mode
+	url = git@github.com:defunkt/markdown-mode.git
+[submodule "personal/preload/pig-mode"]
+	path = personal/preload/pig-mode
+	url = git@github.com:motus/pig-mode.git
+[submodule "personal/preload/solarized-emacs"]
+	path = personal/preload/solarized-emacs
+	url = git@github.com:bbatsov/solarized-emacs.git
