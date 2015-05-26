@@ -77,8 +77,15 @@
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/zenburn-emacs")
 ;; (load-theme 'zenburn t)
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/solarized-emacs")
-(load-theme 'solarized-dark t)
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/solarized-emacs")
+;; (load-theme 'solarized-dark t)
+
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/plan9-theme")
+;; (load-theme 'plan9 t)
+
+(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/moe-theme")
+(load-theme 'moe-light t)
+
 
 (provide 'amir-misc)
 ;;; amir-misc.el ends here
