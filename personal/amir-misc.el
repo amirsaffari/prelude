@@ -83,8 +83,11 @@
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/plan9-theme")
 ;; (load-theme 'plan9 t)
 
-(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/moe-theme")
-(load-theme 'moe-light t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/flatui-theme")
+(load-theme 'flatui t)
+
+;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/moe-theme")
+;; (load-theme 'moe-dark t)
 
 
 (provide 'amir-misc)

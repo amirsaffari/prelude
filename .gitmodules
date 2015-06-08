@@ -13,9 +13,9 @@
 [submodule "personal/preload/solarized-emacs"]
 	path = personal/preload/solarized-emacs
 	url = git@github.com:bbatsov/solarized-emacs.git
-[submodule "personal/preload/plan9-theme"]
-	path = personal/preload/plan9-theme
-	url = https://github.com/john2x/plan9-theme.el.git
 [submodule "personal/preload/moe-theme"]
 	path = personal/preload/moe-theme
 	url = https://github.com/kuanyui/moe-theme.el.git
+[submodule "personal/preload/flatui-theme.el"]
+	path = personal/preload/flatui-theme
+	url = https://github.com/john2x/flatui-theme.el.git
