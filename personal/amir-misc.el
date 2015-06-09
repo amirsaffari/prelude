@@ -74,17 +74,11 @@
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/monokai-emacs")
 ;; (load-theme 'monokai t)
 
-;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/zenburn-emacs")
-;; (load-theme 'zenburn t)
+(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/zenburn-emacs")
+(load-theme 'zenburn t)
 
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/solarized-emacs")
 ;; (load-theme 'solarized-dark t)
-
-;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/plan9-theme")
-;; (load-theme 'plan9 t)
-
-(add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/flatui-theme")
-(load-theme 'flatui t)
 
 ;; (add-to-list 'custom-theme-load-path "~/.emacs.d/personal/preload/moe-theme")
 ;; (load-theme 'moe-dark t)

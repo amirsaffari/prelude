@@ -16,6 +16,3 @@
 [submodule "personal/preload/moe-theme"]
 	path = personal/preload/moe-theme
 	url = https://github.com/kuanyui/moe-theme.el.git
-[submodule "personal/preload/flatui-theme.el"]
-	path = personal/preload/flatui-theme
-	url = https://github.com/john2x/flatui-theme.el.git
