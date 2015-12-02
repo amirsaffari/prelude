@@ -5,5 +5,6 @@
 (require 'virtualenvwrapper)
 (venv-initialize-interactive-shells) ;; if you want interactive shell support
 (venv-initialize-eshell) ;; if you want eshell support
-(setq venv-location '("/home/amir/projects/import.io/marvin/comp_name_env/"))
+(setq venv-location '("/home/amir/projects/import.io/marvin/comp_name_env/"
+                      "/home/amir/projects/ai_musician/ai_musician_env/"))
 ;;

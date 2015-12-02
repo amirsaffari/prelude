@@ -7,7 +7,7 @@
        (cd "~"))
 
 ;; ====== from core/ui
-(menu-bar-mode +1)
+;; (menu-bar-mode +1)
 
 ;; ====== Set temporary directory
 (setq temporary-file-directory "~/.emacs.d/tmp/")
