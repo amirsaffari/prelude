@@ -20,6 +20,7 @@
 ;; EIN
 (prelude-require-packages '(ein))
 (require 'ein)
+(setq ein:use-auto-complete t)
 
 ;; Virtualenvwrapper
 (require 'virtualenvwrapper)
