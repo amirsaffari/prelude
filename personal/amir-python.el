@@ -17,6 +17,10 @@
 (setq python-shell-interpreter "ipython")
 (setq python-shell-interpreter-args "--pylab")
 
+;; EIN
+(prelude-require-packages '(ein))
+(require 'ein)
+
 ;; Virtualenvwrapper
 (require 'virtualenvwrapper)
 (venv-initialize-interactive-shells) ;; if you want interactive shell support
