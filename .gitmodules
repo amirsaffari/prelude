@@ -16,3 +16,6 @@
 [submodule "personal/preload/moe-theme"]
 	path = personal/preload/moe-theme
 	url = https://github.com/kuanyui/moe-theme.el.git
+[submodule "personal/preload/emacs-color-theme-solarized"]
+	path = personal/preload/emacs-color-theme-solarized
+	url = https://github.com/sellout/emacs-color-theme-solarized.git
